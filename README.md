@@ -19,6 +19,9 @@ After cloning move to the destination folder and type
 
 > npm install
 
+## Run the project locally
+> npm run start
+
 ## Configuration
 
 in the folder project open the config.json file, here are the properties how to insert the token bot.
