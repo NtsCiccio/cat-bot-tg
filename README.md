@@ -19,6 +19,9 @@ After cloning move to the destination folder and type
 
 > npm install
 
+## Run the project locally
+> npm run start
+
 ## Configuration
 
 in the folder project open the config.json file, here are the properties how to insert the token bot.
@@ -29,5 +32,6 @@ Pull requests are welcome.
 Please open an issue first to discuss what you would like to change.
 
 ## Contributors
-
-- my friend shiby she correct me a grammatical error (grammar nazi <3)
+* my friend 
+  - shiby she correct me a grammatical error (grammar nazi <3)
+  - Daniele he always bears me [github](https://github.com/DAnt93)
