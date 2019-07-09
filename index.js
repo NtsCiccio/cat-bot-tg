@@ -1,6 +1,8 @@
 const Telegraf = require("telegraf");
 const axios = require("axios");
 
+const 
+
 const bot = new Telegraf("833287603:AAEc0a6F8Y3EJWhxsEoNHVhZwTeCd9Nw0MU");
 const apiCat = "https://aws.random.cat/meow";
 let urlIncomigCat = "";
@@ -36,7 +38,7 @@ bot.command("drugme", ctx => {
       console.log(error);
     })
     .finally(function() {
-      ctx.reply("Aspetta un'attimo...");
+      ctx.reply("Aspetta un attimo...");
     });
 });
 
