@@ -1,10 +1,11 @@
 const Telegraf = require("telegraf");
 const axios = require("axios");
 
-const 
+const config = require("./config.json");
 
-const bot = new Telegraf("833287603:AAEc0a6F8Y3EJWhxsEoNHVhZwTeCd9Nw0MU");
-const apiCat = "https://aws.random.cat/meow";
+console.log(config);
+const bot = new Telegraf(config.token);
+const apiCat = config.apiCat;
 let urlIncomigCat = "";
 
 bot.start(ctx =>
