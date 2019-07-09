@@ -33,5 +33,5 @@ Please open an issue first to discuss what you would like to change.
 
 ## Contributors
 * my friend 
-  - Shiby she correct my grammar mistakes (grammar nazi :heart:)
+  - Shiby she Corrected my grammar mistakes (grammar nazi :heart:)
   - Daniele he always bears me [github](https://github.com/DAnt93)
