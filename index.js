@@ -1,12 +1,10 @@
 const Telegraf = require("telegraf");
 const axios = require("axios");
-
 const config = require("./config.json");
-
-console.log(config);
-const bot = new Telegraf(config.token);
 const apiCat = config.apiCat;
 let urlIncomigCat = "";
+
+const bot = new Telegraf(config.token);
 
 bot.start(ctx =>
   ctx.reply("Hey tu! si dico proprio a te usa il comando /drugme")
