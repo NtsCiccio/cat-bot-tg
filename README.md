@@ -24,7 +24,7 @@ After cloning move to the destination folder and type
 
 ## Configuration
 
-in the folder project open the config.json file, here are the properties how to insert the token bot.
+in the folder project open the config.json file, here are the properties where to insert the token bot.
 
 ## Contributing
 
