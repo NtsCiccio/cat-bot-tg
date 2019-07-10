@@ -7,7 +7,7 @@ bot-cat-tg is a [telegram](https://telegram.org/) bot that aims to send photos o
 - [Nodejs](<[https://nodejs.org/en/](https://nodejs.org/en/)>)
 - [Telegraf.js](<[https://telegraf.js.org](https://telegraf.js.org/)>)
 - [Axios](<[https://github.com/axios/axios](https://github.com/axios/axios)>)
-- [ And this api to retrieve random cats](<[https://aws.random.cat](https://aws.random.cat/)>)
+- [ And this api to retrieve random cats](https://aws.random.cat/meow)
 
 ## Installation
 
