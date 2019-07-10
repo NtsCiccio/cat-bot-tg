@@ -7,10 +7,12 @@ let urlIncomigCat = "";
 const bot = new Telegraf(config.token);
 
 bot.start(ctx =>
-  ctx.reply("Hey tu! si dico proprio a te usa il comando /drugme")
+  ctx.reply(
+    "Hey you! yeah you, do you want some kitty pics?\n use the command /kittyme"
+  )
 );
 
-bot.command("drugme", ctx => {
+bot.command("kittyme", ctx => {
   axios
     .get(apiCat)
     .then(response => {
@@ -33,11 +35,11 @@ bot.command("drugme", ctx => {
       }
     })
     .catch(error => {
-      ctx.reply(":( niente gatti è successo qualcosa di brutto");
+      ctx.reply(":( not cats for you, sorry");
       console.log(error);
     })
     .finally(function() {
-      ctx.reply("Aspetta un attimo...");
+      ctx.reply("Wait, I'm choosing the cutest cat");
     });
 });
 
