@@ -42,7 +42,5 @@ bot.command("kittyme", ctx => {
     });
 });
 
-bot.telegram.setWebhook(
-  `https://catspambot.herokuapp.com/${process.env.TOKEN}`
-);
-bot.startWebhook(`/${process.env.TOKEN}`, null, PORT);
+bot.hears(/./, ctx => ctx.reply("Hello"));
+bot.startPolling();
