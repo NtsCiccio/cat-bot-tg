@@ -55,5 +55,4 @@ bot.command("kittyme", ctx => {
     });
 });
 
-bot.hears(/./, ctx => ctx.reply("Hello"));
 bot.startPolling();
