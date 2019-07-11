@@ -11,6 +11,7 @@ bot-cat-tg is a [telegram](https://telegram.org/) bot that aims to send photos o
 - [Node Version Manager](https://github.com/nvm-sh/nvm)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [expressjs](https://expressjs.com/it/) **more details in [Explanations](#explanations)**
+- [heroku](https://www.heroku.com/)
 
 ## Requirements
 
