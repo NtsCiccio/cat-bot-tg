@@ -1,11 +1,10 @@
 const Telegraf = require("telegraf");
 const axios = require("axios");
-const config = require("./config.json");
-const apiCat = config.apiCat;
+require("dotenv").config();
+const apiCat = process.env.API_CAT;
 let urlIncomigCat = "";
 
-const bot = new Telegraf(config.token);
-
+const bot = new Telegraf(process.env.TOKEN);
 bot.start(ctx =>
   ctx.reply(
     "Hey you! yeah you, do you want some kitty pics?\n use the command /kittyme"
