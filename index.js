@@ -42,4 +42,4 @@ bot.command("kittyme", ctx => {
     });
 });
 
-bot.launch();
+bot.startPolling();

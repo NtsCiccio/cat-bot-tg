@@ -3,3 +3,9 @@ node_modules/
 
 #dotenv file
 .env
+
+#gitignore
+.gitignore
+
+#nvm .nvmrc
+.nvmrc
