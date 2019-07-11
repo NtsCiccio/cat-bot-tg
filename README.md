@@ -8,12 +8,20 @@ bot-cat-tg is a [telegram](https://telegram.org/) bot that aims to send photos o
 - [Telegraf.js](<[https://telegraf.js.org](https://telegraf.js.org/)>)
 - [Axios](<[https://github.com/axios/axios](https://github.com/axios/axios)>)
 - [ And this api to retrieve random cats](https://aws.random.cat/meow)
+- [Node Version Manager](https://github.com/nvm-sh/nvm)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+
+## Requirements
+Node >= 10.16.0
 
 ## Installation
 
 First clone this project
 
 > git clone https://github.com/M-remondi/bot-cat-tg.git
+
+if you use nvm
+> nvm use
 
 After cloning move to the destination folder and type
 
@@ -24,7 +32,13 @@ After cloning move to the destination folder and type
 
 ## Configuration
 
-in the folder project open the config.json file, here are the properties where to insert the token bot.
+In the root folder create a file called .env 
+<br/> <br/>
+example:
+```
+BOT_TOKEN = token here
+API = api here
+```
 
 ## Contributing
 
