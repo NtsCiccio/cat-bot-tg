@@ -1,12 +1,16 @@
 const Telegraf = require("telegraf");
 const axios = require("axios");
+const express = require("express");
+const expressApp = express();
+
 require("dotenv").config();
+
 const apiCat = process.env.API_CAT;
 let urlIncomigCat = "";
+const port = process.env.PORT || 3000;
 
 const bot = new Telegraf(process.env.TOKEN);
 
-const port = process.env.PORT || 3000;
 expressApp.get("/", (req, res) => {
   res.send("Hello World!");
 });
