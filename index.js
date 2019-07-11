@@ -5,6 +5,15 @@ const apiCat = process.env.API_CAT;
 let urlIncomigCat = "";
 
 const bot = new Telegraf(process.env.TOKEN);
+
+const port = process.env.PORT || 3000;
+expressApp.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+expressApp.listen(port, () => {
+  console.log(`Listening on port ${port}`);
+});
+
 bot.start(ctx =>
   ctx.reply(
     "Hey you! yeah you, do you want some kitty pics?\n use the command /kittyme"
