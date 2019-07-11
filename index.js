@@ -43,6 +43,6 @@ bot.command("kittyme", ctx => {
 });
 
 bot.telegram.setWebhook(
-  `https://catspambot.herokuapp.com/bot${process.env.TOKEN}`
+  `https://catspambot.herokuapp.com/${process.env.TOKEN}`
 );
-bot.startWebhook(`/bot${process.env.TOKEN}`, null, PORT);
+bot.startWebhook(`/${process.env.TOKEN}`, null, PORT);
