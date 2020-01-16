@@ -47,7 +47,7 @@ bot.command("kittyme", ctx => {
       }
     })
     .catch(error => {
-      ctx.reply(":( not cats for you, sorry");
+      ctx.reply(":( no cats for you, sorry");
       console.log(error);
     })
     .finally(function() {
