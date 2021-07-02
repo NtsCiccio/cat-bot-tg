@@ -1,18 +1,25 @@
 {
   "name": "cat-bot-tg",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a cool bot that send pics of random cat",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "author": "ciccio",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "axios": "^0.21.1",
-    "dotenv": "^8.0.0",
-    "express": "^4.17.1",
-    "telegraf": "^3.30.1"
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
   }
 }
