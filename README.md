@@ -15,11 +15,12 @@ cat-bot-tg is a [telegram](https://telegram.org/) bot that aims to send photos/g
   
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your .env file,
+To make it easier for you, just rename .env.example to .env and add your bot token.
 
-`API_KEY`
+`BOT_TOKEN = token here`
 
-`ANOTHER_API_KEY`
+`API = https://cataas.com/cat`
 
   
 ## Run Locally
@@ -27,19 +28,19 @@ To run this project, you will need to add the following environment variables to
 Clone the project
 
 ```bash
-git clone https://link-to-project
+git clone https://github.com/NtsCiccio/cat-bot-tg.git
 ```
 
 Go to the project directory
 
 ```bash
-cd my-project
+cd cat-bot-tg
 ```
 
 Install dependencies
 
 ```bash
-npm install
+npm ci
 ```
 
 Start the server
@@ -51,7 +52,7 @@ npm run start
   
 ## Roadmap
 
-- Additional browser support
+- Use typescript
 
 - Add more integrations
 
