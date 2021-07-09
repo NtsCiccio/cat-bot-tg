@@ -1,4 +1,5 @@
-import { Telegraf, Markup } from 'telegraf';
+
+import { Telegraf, Markup, Context } from 'telegraf';
 import dotenv from 'dotenv';
 import { catPics, catGifs } from './utils/handlerResponse.js';
 import { getButtons } from './utils/utils.js';
@@ -10,7 +11,7 @@ if (token === undefined) {
   throw new Error('BOT_TOKEN must be provided!');
 }
 
-const bot = new Telegraf(token);
+const bot = new Telegraf<Context>(token);
 
 const keyboard = Markup.inlineKeyboard(getButtons());
 
